@@ -1,0 +1,14 @@
+f:\Projects\DotNetCoreSample\Calculator\obj\Debug\netcoreapp2.1\Calculator.csprojAssemblyReference.cache
+f:\Projects\DotNetCoreSample\Calculator\obj\Debug\netcoreapp2.1\Calculator.csproj.CoreCompileInputs.cache
+f:\Projects\DotNetCoreSample\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfoInputs.cache
+f:\Projects\DotNetCoreSample\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfo.cs
+f:\Projects\DotNetCoreSample\Calculator\bin\Debug\netcoreapp2.1\Calculator.deps.json
+f:\Projects\DotNetCoreSample\Calculator\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.json
+f:\Projects\DotNetCoreSample\Calculator\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.dev.json
+f:\Projects\DotNetCoreSample\Calculator\bin\Debug\netcoreapp2.1\Calculator.dll
+f:\Projects\DotNetCoreSample\Calculator\bin\Debug\netcoreapp2.1\Calculator.pdb
+f:\Projects\DotNetCoreSample\Calculator\bin\Debug\netcoreapp2.1\MathOperation.dll
+f:\Projects\DotNetCoreSample\Calculator\bin\Debug\netcoreapp2.1\MathOperation.pdb
+f:\Projects\DotNetCoreSample\Calculator\obj\Debug\netcoreapp2.1\Calculator.csproj.CopyComplete
+f:\Projects\DotNetCoreSample\Calculator\obj\Debug\netcoreapp2.1\Calculator.dll
+f:\Projects\DotNetCoreSample\Calculator\obj\Debug\netcoreapp2.1\Calculator.pdb

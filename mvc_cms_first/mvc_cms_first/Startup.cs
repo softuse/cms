@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using mvc_cms_first.Models;
 
 namespace mvc_cms_first
 {
@@ -30,9 +32,19 @@ namespace mvc_cms_first
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+            services.Configure<List<Content>>(Configuration.GetSection("ContentList"));
 
+            services.Configure<Logger>(Configuration.GetSection("Logger"));
+
+            services.Configure<Content>(Configuration.GetSection("Content"));
+
+            services.AddSingleton(Configuration);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<MovieDBContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DbConnection")));
+          // options.UseSqlServer(Configuration["Data:MyConnection:ConnectionString"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +69,11 @@ namespace mvc_cms_first
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "Hello",
+                    template: "{controller}/{action}/{name}/{numTimes}"
+
+                    );
             });
         }
     }

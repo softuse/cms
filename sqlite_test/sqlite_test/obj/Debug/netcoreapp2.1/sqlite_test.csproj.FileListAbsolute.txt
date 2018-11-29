@@ -1,0 +1,16 @@
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\sqlite_test.deps.json
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\sqlite_test.runtimeconfig.json
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\sqlite_test.runtimeconfig.dev.json
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\sqlite_test.dll
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\sqlite_test.pdb
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\System.Data.SQLite.dll
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\System.Data.SQLite.pdb
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\System.Data.SQLite.xml
+F:\Projects\sqlite_test\sqlite_test\bin\Debug\netcoreapp2.1\System.Data.SQLite.dll.config
+F:\Projects\sqlite_test\sqlite_test\obj\Debug\netcoreapp2.1\sqlite_test.csproj.CoreCompileInputs.cache
+F:\Projects\sqlite_test\sqlite_test\obj\Debug\netcoreapp2.1\sqlite_test.AssemblyInfoInputs.cache
+F:\Projects\sqlite_test\sqlite_test\obj\Debug\netcoreapp2.1\sqlite_test.AssemblyInfo.cs
+F:\Projects\sqlite_test\sqlite_test\obj\Debug\netcoreapp2.1\sqlite_test.csproj.CopyComplete
+F:\Projects\sqlite_test\sqlite_test\obj\Debug\netcoreapp2.1\sqlite_test.dll
+F:\Projects\sqlite_test\sqlite_test\obj\Debug\netcoreapp2.1\sqlite_test.pdb
+F:\Projects\sqlite_test\sqlite_test\obj\Debug\netcoreapp2.1\sqlite_test.csprojAssemblyReference.cache

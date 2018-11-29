@@ -1,0 +1,9 @@
+f:\Projects\DotNetCoreSample\MathOperation\bin\Debug\netstandard2.0\MathOperation.deps.json
+f:\Projects\DotNetCoreSample\MathOperation\bin\Debug\netstandard2.0\MathOperation.dll
+f:\Projects\DotNetCoreSample\MathOperation\bin\Debug\netstandard2.0\MathOperation.pdb
+f:\Projects\DotNetCoreSample\MathOperation\obj\Debug\netstandard2.0\MathOperation.csprojAssemblyReference.cache
+f:\Projects\DotNetCoreSample\MathOperation\obj\Debug\netstandard2.0\MathOperation.csproj.CoreCompileInputs.cache
+f:\Projects\DotNetCoreSample\MathOperation\obj\Debug\netstandard2.0\MathOperation.AssemblyInfoInputs.cache
+f:\Projects\DotNetCoreSample\MathOperation\obj\Debug\netstandard2.0\MathOperation.AssemblyInfo.cs
+f:\Projects\DotNetCoreSample\MathOperation\obj\Debug\netstandard2.0\MathOperation.dll
+f:\Projects\DotNetCoreSample\MathOperation\obj\Debug\netstandard2.0\MathOperation.pdb

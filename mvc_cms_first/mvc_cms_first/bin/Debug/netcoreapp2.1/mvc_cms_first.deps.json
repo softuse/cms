@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "da1a8058ca6d8157292bbb80ff3ad10669d74bdc"
+    "signature": "12ed7a624e1ae7013248805461388013f9159d47"
   },
   "compilationOptions": {
     "defines": [
@@ -28,7 +28,8 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
+          "jQuery.Validation.Globalize": "1.1.0"
         },
         "runtime": {
           "mvc_cms_first.dll": {}
@@ -37,6 +38,7 @@
           "mvc_cms_first.dll": {}
         }
       },
+      "cldrjs/0.4.1": {},
       "Humanizer/2.5.1": {
         "dependencies": {
           "Humanizer.Core.af": "2.5.1",
@@ -490,6 +492,23 @@
           "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
           }
+        }
+      },
+      "jQuery/1.4.4": {},
+      "jquery-globalize/1.0.0": {
+        "dependencies": {
+          "cldrjs": "0.4.1"
+        }
+      },
+      "jQuery.Validation/1.14.0": {
+        "dependencies": {
+          "jQuery": "1.4.4"
+        }
+      },
+      "jQuery.Validation.Globalize/1.1.0": {
+        "dependencies": {
+          "jQuery.Validation": "1.14.0",
+          "jquery-globalize": "1.0.0"
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -3918,6 +3937,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "cldrjs/0.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xOBdVXCJakxlbPAmxLAH+wte3ngR0avqDR+q4l7k/YjpiZspI7lXEc79tMKxHYp7vp9HDYjDdPrfNUjhtDv70w==",
+      "path": "cldrjs/0.4.1",
+      "hashPath": "cldrjs.0.4.1.nupkg.sha512"
+    },
     "Humanizer/2.5.1": {
       "type": "package",
       "serviceable": true,
@@ -4211,6 +4237,34 @@
       "sha512": "sha512-Msxxor/sdbCd3hDamdOP70qCkjhXwM2tIkRyAQR8jvrYVAg6fdN88FeJgCHm+Yss3vG759bakkik9xAjy50lvQ==",
       "path": "humanizer.core.zh-hant/2.5.1",
       "hashPath": "humanizer.core.zh-hant.2.5.1.nupkg.sha512"
+    },
+    "jQuery/1.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8K/DH6C/sf/RhTaLu2hYc7mOiUuH8+4yVzHV3IYL5Qhwgz9oopPbyItbBt4Ag9RVyRkE1+OIXPYm7JIZE6hD9A==",
+      "path": "jquery/1.4.4",
+      "hashPath": "jquery.1.4.4.nupkg.sha512"
+    },
+    "jquery-globalize/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IKemCr6C76xDUzsO/aeNcBGtChfdveXHedxH9eH6MTt+1RVaaoP2iVAvBtPhMgVyIynOG2gLXrO9yQ5iPFBlNw==",
+      "path": "jquery-globalize/1.0.0",
+      "hashPath": "jquery-globalize.1.0.0.nupkg.sha512"
+    },
+    "jQuery.Validation/1.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-azc7Z859CflKpmEPOukA0RlftrLVHq39xidSZAREC81aPfQoeILf0t+u1W2V6wU2/6uAI1u5Ru1r4d6MDflkRw==",
+      "path": "jquery.validation/1.14.0",
+      "hashPath": "jquery.validation.1.14.0.nupkg.sha512"
+    },
+    "jQuery.Validation.Globalize/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eQ8DYcWC8Hna7xdlg7jOPquQzL2Wxjr//NQLIVl/PLqhC5aWD2VFSC8w3Sr/36gCQkF5BFaqqjPw2sHAj6+Qlg==",
+      "path": "jquery.validation.globalize/1.1.0",
+      "hashPath": "jquery.validation.globalize.1.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",

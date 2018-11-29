@@ -1,0 +1,9 @@
+"fqdns": "",
+  "id": "/subscriptions/46db77d1-dff3-4031-b542-125700616e6f/resourceGroups/2e0495e7-5411-4f16-ae1c-8d781155fa50/providers/Microsoft.Compute/virtualMachines/myVM",
+  "location": "australiasoutheast",
+  "macAddress": "00-0D-3A-E0-AA-1A",
+  "powerState": "VM running",
+  "privateIpAddress": "10.0.0.4",
+  "publicIpAddress": "52.189.220.206",
+  "resourceGroup": "2e0495e7-5411-4f16-ae1c-8d781155fa50",
+  "zones": ""

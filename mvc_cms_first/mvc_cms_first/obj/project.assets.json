@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "cldrjs/0.4.1": {
+        "type": "package"
+      },
       "Humanizer/2.5.1": {
         "type": "package",
         "dependencies": {
@@ -494,6 +497,28 @@
           "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
           }
+        }
+      },
+      "jQuery/1.4.4": {
+        "type": "package"
+      },
+      "jquery-globalize/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "cldrjs": "0.4.1"
+        }
+      },
+      "jQuery.Validation/1.14.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.4.4"
+        }
+      },
+      "jQuery.Validation.Globalize/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery.Validation": "1.14.0",
+          "jquery-globalize": "1.0.0"
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -5113,6 +5138,20 @@
     }
   },
   "libraries": {
+    "cldrjs/0.4.1": {
+      "sha512": "xOBdVXCJakxlbPAmxLAH+wte3ngR0avqDR+q4l7k/YjpiZspI7lXEc79tMKxHYp7vp9HDYjDdPrfNUjhtDv70w==",
+      "type": "package",
+      "path": "cldrjs/0.4.1",
+      "files": [
+        ".signature.p7s",
+        "cldrjs.0.4.1.nupkg.sha512",
+        "cldrjs.nuspec",
+        "content/Scripts/cldr.js",
+        "content/Scripts/cldr/event.js",
+        "content/Scripts/cldr/supplemental.js",
+        "content/Scripts/cldr/unresolved.js"
+      ]
+    },
     "Humanizer/2.5.1": {
       "sha512": "QhiLkXDES0bIdZnK7EEresiLJ7eEWt373xuGc7/hVSfWQqtmGr4h1OdmK8L4+xV57+ch9HDooW48pzZmLplrjQ==",
       "type": "package",
@@ -5615,6 +5654,62 @@
         "humanizer.core.zh-hant.nuspec",
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll"
+      ]
+    },
+    "jQuery/1.4.4": {
+      "sha512": "8K/DH6C/sf/RhTaLu2hYc7mOiUuH8+4yVzHV3IYL5Qhwgz9oopPbyItbBt4Ag9RVyRkE1+OIXPYm7JIZE6hD9A==",
+      "type": "package",
+      "path": "jquery/1.4.4",
+      "files": [
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.4.4-vsdoc.js",
+        "Content/Scripts/jquery-1.4.4.js",
+        "Content/Scripts/jquery-1.4.4.min.js",
+        "jquery.1.4.4.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "jquery-globalize/1.0.0": {
+      "sha512": "IKemCr6C76xDUzsO/aeNcBGtChfdveXHedxH9eH6MTt+1RVaaoP2iVAvBtPhMgVyIynOG2gLXrO9yQ5iPFBlNw==",
+      "type": "package",
+      "path": "jquery-globalize/1.0.0",
+      "files": [
+        ".signature.p7s",
+        "content/Scripts/globalize.js",
+        "content/Scripts/globalize/currency.js",
+        "content/Scripts/globalize/date.js",
+        "content/Scripts/globalize/message.js",
+        "content/Scripts/globalize/number.js",
+        "content/Scripts/globalize/plural.js",
+        "content/Scripts/globalize/relative-time.js",
+        "jquery-globalize.1.0.0.nupkg.sha512",
+        "jquery-globalize.nuspec"
+      ]
+    },
+    "jQuery.Validation/1.14.0": {
+      "sha512": "azc7Z859CflKpmEPOukA0RlftrLVHq39xidSZAREC81aPfQoeILf0t+u1W2V6wU2/6uAI1u5Ru1r4d6MDflkRw==",
+      "type": "package",
+      "path": "jquery.validation/1.14.0",
+      "files": [
+        ".signature.p7s",
+        "Content/Scripts/jquery.validate-vsdoc.js",
+        "Content/Scripts/jquery.validate.js",
+        "Content/Scripts/jquery.validate.min.js",
+        "jquery.validation.1.14.0.nupkg.sha512",
+        "jquery.validation.nuspec"
+      ]
+    },
+    "jQuery.Validation.Globalize/1.1.0": {
+      "sha512": "eQ8DYcWC8Hna7xdlg7jOPquQzL2Wxjr//NQLIVl/PLqhC5aWD2VFSC8w3Sr/36gCQkF5BFaqqjPw2sHAj6+Qlg==",
+      "type": "package",
+      "path": "jquery.validation.globalize/1.1.0",
+      "files": [
+        ".signature.p7s",
+        "README.md",
+        "content/Scripts/jquery.validate.globalize.js",
+        "content/Scripts/jquery.validate.globalize.min.js",
+        "jquery.validation.globalize.1.1.0.nupkg.sha512",
+        "jquery.validation.globalize.nuspec"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -13214,7 +13309,8 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
+      "jQuery.Validation.Globalize >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -13242,7 +13338,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.cnblogs.com/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -13281,6 +13378,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "jQuery.Validation.Globalize": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           }
         },
         "imports": [

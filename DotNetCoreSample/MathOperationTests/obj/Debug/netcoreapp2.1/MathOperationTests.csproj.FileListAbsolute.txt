@@ -1,0 +1,17 @@
+f:\Projects\DotNetCoreSample\MathOperationTests\obj\Debug\netcoreapp2.1\MathOperationTests.csprojAssemblyReference.cache
+f:\Projects\DotNetCoreSample\MathOperationTests\obj\Debug\netcoreapp2.1\MathOperationTests.csproj.CoreCompileInputs.cache
+f:\Projects\DotNetCoreSample\MathOperationTests\obj\Debug\netcoreapp2.1\MathOperationTests.AssemblyInfoInputs.cache
+f:\Projects\DotNetCoreSample\MathOperationTests\obj\Debug\netcoreapp2.1\MathOperationTests.AssemblyInfo.cs
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\MathOperationTests.deps.json
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\MathOperationTests.runtimeconfig.json
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\MathOperationTests.runtimeconfig.dev.json
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\MathOperationTests.dll
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\MathOperationTests.pdb
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\MathOperation.dll
+f:\Projects\DotNetCoreSample\MathOperationTests\bin\Debug\netcoreapp2.1\MathOperation.pdb
+f:\Projects\DotNetCoreSample\MathOperationTests\obj\Debug\netcoreapp2.1\MathOperationTests.csproj.CopyComplete
+f:\Projects\DotNetCoreSample\MathOperationTests\obj\Debug\netcoreapp2.1\MathOperationTests.dll
+f:\Projects\DotNetCoreSample\MathOperationTests\obj\Debug\netcoreapp2.1\MathOperationTests.pdb

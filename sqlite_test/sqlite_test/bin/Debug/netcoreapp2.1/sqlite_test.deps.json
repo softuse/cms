@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "sqlite_test/1.0.0": {
+        "dependencies": {
+          "System.Data.SQLite": "1.0.109.0"
+        },
+        "runtime": {
+          "sqlite_test.dll": {}
+        }
+      },
+      "System.Data.SQLite/1.0.109.0": {
+        "runtime": {
+          "System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.109.0",
+            "fileVersion": "1.0.109.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sqlite_test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SQLite/1.0.109.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
