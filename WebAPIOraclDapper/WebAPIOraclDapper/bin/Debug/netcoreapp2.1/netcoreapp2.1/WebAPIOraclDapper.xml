@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPIOraclDapper</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPIOraclDapper.Controllers.ValuesController.Get">
+            <summary>
+            5676577
+            </summary>
+            <remarks>
+             例子:
+            Get api/Values/1
+            </remarks>
+            <param name="id">主键</param>
+            <returns>测试字符串</returns> 
+            <returns></returns>
+            /// <response code="201">返回value字符串</response>
+            <response code="400">如果id为空</response>  
+        </member>
+        <member name="M:WebAPIOraclDapper.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            5676577
+            </summary>
+            <remarks>
+             例子:
+            Get api/Values/1
+            </remarks>
+            <param name="id">主键</param>
+            <returns>测试字符串</returns> 
+            <returns></returns>
+            /// <response code="201">返回value字符串</response>
+            <response code="400">如果id为空</response>  
+        </member>
+    </members>
+</doc>
