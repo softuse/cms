@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="vue.js"></script>
+    <style>
+        .active{
+            font-size:20px;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+  <div id="app">
+    <p v-bind:class="{active:isActive}">{{message}}</p>
+    <p class="active">click times:{{counter}}</p>
+    <button v-on:click="addCounter">click me</button>
+      <h2>解决问题途径</h2>
+      <ol>
+          <template v-for="(value,index) in products">
+              <li>
+            {{value.name}}--{{index}}--
+          </li>
+          </template>
+      </ol>
+      <p v-show="score<60">chengji:{{score}}</p>
+     <input v-model="score">
+     <div v-if="score>=90">
+         perfect
+     </div>
+     <div v-else-if="90>score>=80">
+            good
+        </div>
+        <div v-else="score<60">
+                bad
+        </div>
+  </div>  
+   
+
+   </div>
+  <script>
+      const app=new Vue({
+          el:'#app',
+          data:{
+              counter:0,
+               products:
+               //{
+            //     name:'google',
+            //     nam:'baidu',
+            //     nme:'ali',
+            //     name:'google',
+            //     nam:'baidu',
+            //     ne:'ali'
+
+            //   }, 
+            [
+                     {name:'google'},
+                  {name:'baidu'},
+                  {name:'ali'}
+                
+            ],
+               
+
+             
+              message:'Hello World',
+              isActive:true,
+              
+              },
+              computed: {
+                  filt:function(){
+                      return this.products.filter(function (item){
+                      return item.name.match(/baidu/)
+                  })
+              }
+            }
+            //   created(){
+            //       fetch('https://api.myjson.com/bins/74163')
+            //       .then(response=>response.json())
+            //       .then(json=>{
+            //           this.products=json.products
+            //       })
+
+             
+        //   }
+        //   methods:{
+        //       addCounter:function(){
+        //           this.counter++;
+        //       }
+        //   }
+       
+      });
+      app.products=app.products.filter(function (item){
+          return item.name.match(/baidu/);
+      });
+  </script>
+</body>
+</html>
